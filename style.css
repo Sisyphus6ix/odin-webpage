@@ -14,4 +14,10 @@ a:link {
 .header-content {
     display: flex;
     justify-content: space-around;
+    padding: 16px;
+    border: 4px solid black;
+}
+
+.header-content div {
+    border: 4px solid black;
 }
