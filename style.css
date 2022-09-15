@@ -11,6 +11,7 @@ ul {
     display: flex;
     gap: 18px;
     padding: 18px;
+    font-size: 20px;
 }
 
 a:link, a:visited {
@@ -30,8 +31,15 @@ a:link, a:visited {
     flex: 1;
 }
 
+.message {
+    font-size: 36px;
+}
+
 .picture img {
-    height: fit-content;
+    margin: -50px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 .info-title {
     font-size: 36px;
@@ -41,8 +49,8 @@ a:link, a:visited {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 } 
 
 .info-content {
@@ -63,10 +71,23 @@ img {
     text-align: right;
     font-size: 42px;
 }
+.sign-up {
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-/* .sign-up {
-    
-} */
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.button {
+    height: 50px;
+    width: 70px;
+}
 
 .footer {
     background-color: #1f2937;
