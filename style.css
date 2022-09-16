@@ -49,8 +49,8 @@ a:link, a:visited {
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 } 
 
 .info-content {
@@ -60,6 +60,11 @@ img {
     gap: 52px;
 }
 
+.text {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+}
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
